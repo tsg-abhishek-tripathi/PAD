@@ -1,0 +1,315 @@
+2025-06-25 16:25:18.775 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-25 16:25:19.064 +05:30 [DBG] Hosting starting
+2025-06-25 16:25:19.239 +05:30 [INF] User profile is available. Using 'C:\Users\42atr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-25 16:25:19.261 +05:30 [DBG] Reading data from file 'C:\Users\42atr\AppData\Local\ASP.NET\DataProtection-Keys\key-f58a8177-0d89-463e-84d0-9c7a9085751a.xml'.
+2025-06-25 16:25:19.291 +05:30 [DBG] Found key {f58a8177-0d89-463e-84d0-9c7a9085751a}.
+2025-06-25 16:25:19.309 +05:30 [DBG] Considering key {f58a8177-0d89-463e-84d0-9c7a9085751a} with expiration date 2025-02-11 07:34:10Z as default key.
+2025-06-25 16:25:19.323 +05:30 [DBG] Key {f58a8177-0d89-463e-84d0-9c7a9085751a} is no longer under consideration as default key because it is expired, revoked, or cannot be deciphered.
+2025-06-25 16:25:19.335 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-25 16:25:19.350 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2025-06-25 16:25:19.357 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-25 16:25:19.369 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-06-25 16:25:19.377 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-06-25 16:25:19.386 +05:30 [DBG] Repository contains no viable default key. Caller should generate a key with immediate activation.
+2025-06-25 16:25:19.390 +05:30 [DBG] Policy resolution states that a new key should be added to the key ring.
+2025-06-25 16:25:19.398 +05:30 [INF] Creating key {0105ca20-e911-43bf-8d19-d46bc4e961da} with creation date 2025-06-25 10:55:19Z, activation date 2025-06-25 10:55:19Z, and expiration date 2025-09-23 10:55:19Z.
+2025-06-25 16:25:19.411 +05:30 [DBG] Descriptor deserializer type for key {0105ca20-e911-43bf-8d19-d46bc4e961da} is 'Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'.
+2025-06-25 16:25:19.419 +05:30 [DBG] No key escrow sink found. Not writing key {0105ca20-e911-43bf-8d19-d46bc4e961da} to escrow.
+2025-06-25 16:25:19.440 +05:30 [DBG] Encrypting to Windows DPAPI for current user account (BAIN\42ATR).
+2025-06-25 16:25:19.454 +05:30 [INF] Writing data to file 'C:\Users\42atr\AppData\Local\ASP.NET\DataProtection-Keys\key-0105ca20-e911-43bf-8d19-d46bc4e961da.xml'.
+2025-06-25 16:25:19.464 +05:30 [DBG] Key cache expiration token triggered by 'CreateNewKey' operation.
+2025-06-25 16:25:19.471 +05:30 [DBG] Reading data from file 'C:\Users\42atr\AppData\Local\ASP.NET\DataProtection-Keys\key-0105ca20-e911-43bf-8d19-d46bc4e961da.xml'.
+2025-06-25 16:25:19.478 +05:30 [DBG] Reading data from file 'C:\Users\42atr\AppData\Local\ASP.NET\DataProtection-Keys\key-f58a8177-0d89-463e-84d0-9c7a9085751a.xml'.
+2025-06-25 16:25:19.487 +05:30 [DBG] Found key {0105ca20-e911-43bf-8d19-d46bc4e961da}.
+2025-06-25 16:25:19.493 +05:30 [DBG] Found key {f58a8177-0d89-463e-84d0-9c7a9085751a}.
+2025-06-25 16:25:19.500 +05:30 [DBG] Considering key {0105ca20-e911-43bf-8d19-d46bc4e961da} with expiration date 2025-09-23 10:55:19Z as default key.
+2025-06-25 16:25:19.507 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-25 16:25:19.514 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2025-06-25 16:25:19.521 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-25 16:25:19.528 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-06-25 16:25:19.534 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-06-25 16:25:19.540 +05:30 [DBG] Using key {0105ca20-e911-43bf-8d19-d46bc4e961da} as the default key.
+2025-06-25 16:25:19.545 +05:30 [DBG] Key ring with default key {0105ca20-e911-43bf-8d19-d46bc4e961da} was loaded during application startup.
+2025-06-25 16:25:19.619 +05:30 [DBG] No listening endpoints were configured. Binding to http://localhost:5000 by default.
+2025-06-25 16:25:19.626 +05:30 [INF] Now listening on: http://localhost:5000
+2025-06-25 16:25:19.631 +05:30 [DBG] Loaded hosting startup assembly PAD.Api
+2025-06-25 16:25:19.636 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-25 16:25:19.641 +05:30 [INF] Hosting environment: Production
+2025-06-25 16:25:19.646 +05:30 [INF] Content root path: C:\Projects\GitHub\PAD\backend\PAD.Api
+2025-06-25 16:25:19.651 +05:30 [DBG] Hosting started
+2025-06-25 16:25:33.558 +05:30 [DBG] Connection id "0HNDJQR7HO7KO" accepted.
+2025-06-25 16:25:33.565 +05:30 [DBG] Connection id "0HNDJQR7HO7KP" accepted.
+2025-06-25 16:25:33.570 +05:30 [DBG] Connection id "0HNDJQR7HO7KP" started.
+2025-06-25 16:25:33.570 +05:30 [DBG] Connection id "0HNDJQR7HO7KO" started.
+2025-06-25 16:25:33.647 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-06-25 16:25:33.657 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-25 16:25:33.680 +05:30 [DBG] No candidates found for the request path '/'
+2025-06-25 16:25:33.686 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:25:33.690 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-25 16:25:33.810 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 16:25:33.821 +05:30 [DBG] Connection id "0HNDJQR7HO7KO" completed keep alive response.
+2025-06-25 16:25:33.825 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 null 179.0304ms
+2025-06-25 16:25:33.840 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404
+2025-06-25 16:25:39.785 +05:30 [DBG] Connection id "0HNDJQR7HO7KQ" accepted.
+2025-06-25 16:25:39.802 +05:30 [DBG] Connection id "0HNDJQR7HO7KQ" started.
+2025-06-25 16:25:39.818 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/logo192.png - null null
+2025-06-25 16:25:39.854 +05:30 [DBG] No candidates found for the request path '/logo192.png'
+2025-06-25 16:25:39.867 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:25:39.881 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 16:25:39.896 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/logo192.png - 404 0 null 77.4173ms
+2025-06-25 16:25:39.899 +05:30 [DBG] Connection id "0HNDJQR7HO7KQ" received FIN.
+2025-06-25 16:25:39.928 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/logo192.png, Response status code: 404
+2025-06-25 16:25:39.931 +05:30 [DBG] Connection id "0HNDJQR7HO7KQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 16:25:39.946 +05:30 [DBG] Connection id "0HNDJQR7HO7KQ" disconnecting.
+2025-06-25 16:25:39.950 +05:30 [DBG] Connection id "0HNDJQR7HO7KQ" stopped.
+2025-06-25 16:26:58.898 +05:30 [DBG] Connection id "0HNDJQR7HO7KP" received FIN.
+2025-06-25 16:26:58.912 +05:30 [DBG] Connection id "0HNDJQR7HO7KP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 16:26:58.930 +05:30 [DBG] Connection id "0HNDJQR7HO7KP" disconnecting.
+2025-06-25 16:26:58.946 +05:30 [DBG] Connection id "0HNDJQR7HO7KP" stopped.
+2025-06-25 16:27:44.772 +05:30 [DBG] Connection id "0HNDJQR7HO7KO" disconnecting.
+2025-06-25 16:27:44.791 +05:30 [DBG] Connection id "0HNDJQR7HO7KO" stopped.
+2025-06-25 16:27:44.809 +05:30 [DBG] Connection id "0HNDJQR7HO7KO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 16:29:20.957 +05:30 [DBG] Connection id "0HNDJQR7HO7KR" accepted.
+2025-06-25 16:29:20.961 +05:30 [DBG] Connection id "0HNDJQR7HO7KR" started.
+2025-06-25 16:29:20.988 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/main.62bda23a98fd0c6c8027.hot-update.json - null null
+2025-06-25 16:29:21.002 +05:30 [DBG] No candidates found for the request path '/main.62bda23a98fd0c6c8027.hot-update.json'
+2025-06-25 16:29:21.006 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:29:21.015 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 16:29:21.019 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/main.62bda23a98fd0c6c8027.hot-update.json - 404 0 null 30.664ms
+2025-06-25 16:29:21.023 +05:30 [DBG] Connection id "0HNDJQR7HO7KR" received FIN.
+2025-06-25 16:29:21.035 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/main.62bda23a98fd0c6c8027.hot-update.json, Response status code: 404
+2025-06-25 16:29:21.037 +05:30 [DBG] Connection id "0HNDJQR7HO7KR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 16:29:21.051 +05:30 [DBG] Connection id "0HNDJQR7HO7KR" disconnecting.
+2025-06-25 16:29:21.056 +05:30 [DBG] Connection id "0HNDJQR7HO7KR" stopped.
+2025-06-25 16:29:21.436 +05:30 [DBG] Connection id "0HNDJQR7HO7KS" accepted.
+2025-06-25 16:29:21.452 +05:30 [DBG] Connection id "0HNDJQR7HO7KS" started.
+2025-06-25 16:29:21.469 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/logo192.png - null null
+2025-06-25 16:29:21.507 +05:30 [DBG] No candidates found for the request path '/logo192.png'
+2025-06-25 16:29:21.523 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:29:21.534 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 16:29:21.541 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/logo192.png - 404 0 null 72.2614ms
+2025-06-25 16:29:21.544 +05:30 [DBG] Connection id "0HNDJQR7HO7KS" received FIN.
+2025-06-25 16:29:21.551 +05:30 [DBG] Connection id "0HNDJQR7HO7KT" accepted.
+2025-06-25 16:29:21.569 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/logo192.png, Response status code: 404
+2025-06-25 16:29:21.573 +05:30 [DBG] Connection id "0HNDJQR7HO7KS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 16:29:21.577 +05:30 [DBG] Connection id "0HNDJQR7HO7KT" started.
+2025-06-25 16:29:21.603 +05:30 [DBG] Connection id "0HNDJQR7HO7KS" disconnecting.
+2025-06-25 16:29:21.606 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/logo192.png - null null
+2025-06-25 16:29:21.619 +05:30 [DBG] Connection id "0HNDJQR7HO7KS" stopped.
+2025-06-25 16:29:21.625 +05:30 [DBG] No candidates found for the request path '/logo192.png'
+2025-06-25 16:29:21.638 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:29:21.644 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 16:29:21.654 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/logo192.png - 404 0 null 47.4154ms
+2025-06-25 16:29:21.656 +05:30 [DBG] Connection id "0HNDJQR7HO7KT" received FIN.
+2025-06-25 16:29:21.676 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/logo192.png, Response status code: 404
+2025-06-25 16:29:21.677 +05:30 [DBG] Connection id "0HNDJQR7HO7KT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 16:29:21.700 +05:30 [DBG] Connection id "0HNDJQR7HO7KT" disconnecting.
+2025-06-25 16:29:21.704 +05:30 [DBG] Connection id "0HNDJQR7HO7KT" stopped.
+2025-06-25 16:29:49.213 +05:30 [DBG] Connection id "0HNDJQR7HO7KU" accepted.
+2025-06-25 16:29:49.224 +05:30 [DBG] Connection id "0HNDJQR7HO7KU" started.
+2025-06-25 16:29:49.238 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/logo192.png - null null
+2025-06-25 16:29:49.267 +05:30 [DBG] No candidates found for the request path '/logo192.png'
+2025-06-25 16:29:49.281 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:29:49.291 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 16:29:49.295 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/logo192.png - 404 0 null 57.407ms
+2025-06-25 16:29:49.297 +05:30 [DBG] Connection id "0HNDJQR7HO7KU" received FIN.
+2025-06-25 16:29:49.313 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/logo192.png, Response status code: 404
+2025-06-25 16:29:49.315 +05:30 [DBG] Connection id "0HNDJQR7HO7KU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 16:29:49.327 +05:30 [DBG] Connection id "0HNDJQR7HO7KU" disconnecting.
+2025-06-25 16:29:49.329 +05:30 [DBG] Connection id "0HNDJQR7HO7KU" stopped.
+2025-06-25 16:46:02.558 +05:30 [DBG] Config reload token fired. Checking for changes...
+2025-06-25 16:46:02.831 +05:30 [DBG] Config reload token fired. Checking for changes...
+2025-06-25 16:46:11.700 +05:30 [INF] Application is shutting down...
+2025-06-25 16:46:11.701 +05:30 [DBG] Hosting stopping
+2025-06-25 16:46:11.728 +05:30 [DBG] Hosting stopped
+2025-06-25 16:46:23.525 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-25 16:46:23.734 +05:30 [DBG] Hosting starting
+2025-06-25 16:46:23.770 +05:30 [INF] User profile is available. Using 'C:\Users\42atr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-25 16:46:23.797 +05:30 [DBG] Reading data from file 'C:\Users\42atr\AppData\Local\ASP.NET\DataProtection-Keys\key-0105ca20-e911-43bf-8d19-d46bc4e961da.xml'.
+2025-06-25 16:46:23.811 +05:30 [DBG] Reading data from file 'C:\Users\42atr\AppData\Local\ASP.NET\DataProtection-Keys\key-f58a8177-0d89-463e-84d0-9c7a9085751a.xml'.
+2025-06-25 16:46:23.824 +05:30 [DBG] Found key {0105ca20-e911-43bf-8d19-d46bc4e961da}.
+2025-06-25 16:46:23.834 +05:30 [DBG] Found key {f58a8177-0d89-463e-84d0-9c7a9085751a}.
+2025-06-25 16:46:23.843 +05:30 [DBG] Considering key {0105ca20-e911-43bf-8d19-d46bc4e961da} with expiration date 2025-09-23 10:55:19Z as default key.
+2025-06-25 16:46:23.859 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-25 16:46:23.869 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2025-06-25 16:46:23.882 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-25 16:46:23.898 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-06-25 16:46:23.908 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-06-25 16:46:23.923 +05:30 [DBG] Using key {0105ca20-e911-43bf-8d19-d46bc4e961da} as the default key.
+2025-06-25 16:46:23.934 +05:30 [DBG] Key ring with default key {0105ca20-e911-43bf-8d19-d46bc4e961da} was loaded during application startup.
+2025-06-25 16:46:23.986 +05:30 [DBG] No listening endpoints were configured. Binding to http://localhost:5000 by default.
+2025-06-25 16:46:23.995 +05:30 [INF] Now listening on: http://localhost:5000
+2025-06-25 16:46:23.998 +05:30 [DBG] Loaded hosting startup assembly PAD.Api
+2025-06-25 16:46:24.002 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-25 16:46:24.009 +05:30 [INF] Hosting environment: Production
+2025-06-25 16:46:24.012 +05:30 [INF] Content root path: C:\Projects\GitHub\PAD\backend\PAD.Api
+2025-06-25 16:46:24.014 +05:30 [DBG] Hosting started
+2025-06-25 16:47:49.291 +05:30 [DBG] Connection id "0HNDJR7LK9OIU" accepted.
+2025-06-25 16:47:49.296 +05:30 [DBG] Connection id "0HNDJR7LK9OIU" started.
+2025-06-25 16:47:49.296 +05:30 [DBG] Connection id "0HNDJR7LK9OIV" accepted.
+2025-06-25 16:47:49.303 +05:30 [DBG] Connection id "0HNDJR7LK9OIV" started.
+2025-06-25 16:47:49.334 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-06-25 16:47:49.344 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-25 16:47:49.367 +05:30 [DBG] No candidates found for the request path '/'
+2025-06-25 16:47:49.371 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:47:49.376 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-25 16:47:49.437 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 16:47:49.444 +05:30 [DBG] Connection id "0HNDJR7LK9OIU" completed keep alive response.
+2025-06-25 16:47:49.449 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 null 116.6909ms
+2025-06-25 16:47:49.465 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404
+2025-06-25 16:48:12.026 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-06-25 16:48:12.053 +05:30 [DBG] No candidates found for the request path '/'
+2025-06-25 16:48:12.066 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:48:12.076 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 16:48:12.089 +05:30 [DBG] Connection id "0HNDJR7LK9OIU" completed keep alive response.
+2025-06-25 16:48:12.106 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 null 78.8714ms
+2025-06-25 16:48:12.142 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404
+2025-06-25 16:49:24.642 +05:30 [DBG] Connection id "0HNDJR7LK9OIV" received FIN.
+2025-06-25 16:49:24.648 +05:30 [DBG] Connection id "0HNDJR7LK9OIV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 16:49:24.654 +05:30 [DBG] Connection id "0HNDJR7LK9OIV" disconnecting.
+2025-06-25 16:49:24.658 +05:30 [DBG] Connection id "0HNDJR7LK9OIV" stopped.
+2025-06-25 16:49:53.386 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-25 16:49:53.578 +05:30 [DBG] Hosting starting
+2025-06-25 16:49:53.619 +05:30 [INF] User profile is available. Using 'C:\Users\42atr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-25 16:49:53.642 +05:30 [DBG] Reading data from file 'C:\Users\42atr\AppData\Local\ASP.NET\DataProtection-Keys\key-0105ca20-e911-43bf-8d19-d46bc4e961da.xml'.
+2025-06-25 16:49:53.660 +05:30 [DBG] Reading data from file 'C:\Users\42atr\AppData\Local\ASP.NET\DataProtection-Keys\key-f58a8177-0d89-463e-84d0-9c7a9085751a.xml'.
+2025-06-25 16:49:53.683 +05:30 [DBG] Found key {0105ca20-e911-43bf-8d19-d46bc4e961da}.
+2025-06-25 16:49:53.700 +05:30 [DBG] Found key {f58a8177-0d89-463e-84d0-9c7a9085751a}.
+2025-06-25 16:49:53.718 +05:30 [DBG] Considering key {0105ca20-e911-43bf-8d19-d46bc4e961da} with expiration date 2025-09-23 10:55:19Z as default key.
+2025-06-25 16:49:53.734 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-25 16:49:53.751 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2025-06-25 16:49:53.761 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-25 16:49:53.773 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-06-25 16:49:53.780 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-06-25 16:49:53.787 +05:30 [DBG] Using key {0105ca20-e911-43bf-8d19-d46bc4e961da} as the default key.
+2025-06-25 16:49:53.794 +05:30 [DBG] Key ring with default key {0105ca20-e911-43bf-8d19-d46bc4e961da} was loaded during application startup.
+2025-06-25 16:49:53.873 +05:30 [DBG] No listening endpoints were configured. Binding to http://localhost:5000 by default.
+2025-06-25 16:49:53.883 +05:30 [INF] Now listening on: http://localhost:5000
+2025-06-25 16:49:53.889 +05:30 [DBG] Loaded hosting startup assembly PAD.Api
+2025-06-25 16:49:53.895 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-25 16:49:53.897 +05:30 [INF] Hosting environment: Production
+2025-06-25 16:49:53.900 +05:30 [INF] Content root path: C:\Projects\GitHub\PAD\backend\PAD.Api
+2025-06-25 16:49:53.905 +05:30 [DBG] Hosting started
+2025-06-25 16:50:00.543 +05:30 [DBG] Connection id "0HNDJR8SO0H8J" accepted.
+2025-06-25 16:50:00.547 +05:30 [DBG] Connection id "0HNDJR8SO0H8K" accepted.
+2025-06-25 16:50:00.549 +05:30 [DBG] Connection id "0HNDJR8SO0H8J" started.
+2025-06-25 16:50:00.551 +05:30 [DBG] Connection id "0HNDJR8SO0H8K" started.
+2025-06-25 16:50:00.592 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-06-25 16:50:00.608 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-25 16:50:00.627 +05:30 [DBG] No candidates found for the request path '/'
+2025-06-25 16:50:00.629 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:50:00.653 +05:30 [DBG] The request path  does not match the path filter
+2025-06-25 16:50:00.657 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-06-25 16:50:00.710 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 16:50:00.716 +05:30 [DBG] Connection id "0HNDJR8SO0H8J" completed keep alive response.
+2025-06-25 16:50:00.720 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 null 130.3479ms
+2025-06-25 16:50:00.732 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404
+2025-06-25 16:50:06.549 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - null null
+2025-06-25 16:50:06.569 +05:30 [DBG] No candidates found for the request path '/swagger'
+2025-06-25 16:50:06.581 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:50:06.588 +05:30 [DBG] Connection id "0HNDJR8SO0H8J" completed keep alive response.
+2025-06-25 16:50:06.598 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - 301 0 null 48.6159ms
+2025-06-25 16:50:06.613 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-06-25 16:50:06.630 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-06-25 16:50:06.638 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:50:06.772 +05:30 [DBG] Connection id "0HNDJR8SO0H8J" completed keep alive response.
+2025-06-25 16:50:06.779 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 165.9932ms
+2025-06-25 16:50:06.831 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - null null
+2025-06-25 16:50:06.831 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - null null
+2025-06-25 16:50:06.834 +05:30 [DBG] Connection id "0HNDJR8SO0H8L" accepted.
+2025-06-25 16:50:06.868 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2025-06-25 16:50:06.861 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2025-06-25 16:50:06.879 +05:30 [DBG] Connection id "0HNDJR8SO0H8L" started.
+2025-06-25 16:50:06.881 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:50:06.885 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:50:06.905 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - null null
+2025-06-25 16:50:06.937 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-06-25 16:50:06.948 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2025-06-25 16:50:06.953 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-06-25 16:50:06.977 +05:30 [DBG] Connection id "0HNDJR8SO0H8J" completed keep alive response.
+2025-06-25 16:50:06.978 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:50:06.983 +05:30 [DBG] Connection id "0HNDJR8SO0H8K" completed keep alive response.
+2025-06-25 16:50:07.005 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - 200 144929 text/css 172.2621ms
+2025-06-25 16:50:07.012 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 180.2731ms
+2025-06-25 16:50:07.013 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-06-25 16:50:07.083 +05:30 [DBG] Connection id "0HNDJR8SO0H8L" completed keep alive response.
+2025-06-25 16:50:07.092 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 186.7203ms
+2025-06-25 16:50:07.364 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-06-25 16:50:07.388 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-06-25 16:50:07.401 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:50:07.480 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - null null
+2025-06-25 16:50:07.494 +05:30 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2025-06-25 16:50:07.503 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:50:07.508 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-06-25 16:50:07.524 +05:30 [DBG] Connection id "0HNDJR8SO0H8K" completed keep alive response.
+2025-06-25 16:50:07.531 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - 200 628 image/png 51.696ms
+2025-06-25 16:50:07.722 +05:30 [DBG] Connection id "0HNDJR8SO0H8L" completed keep alive response.
+2025-06-25 16:50:07.737 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 372.3567ms
+2025-06-25 16:51:00.629 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employees - null null
+2025-06-25 16:51:00.669 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employees'
+2025-06-25 16:51:00.689 +05:30 [DBG] Endpoint 'PAD.Api.Controllers.EmployeesController.GetEmployees (PAD.Api)' with route pattern 'api/Employees' is valid for the request path '/api/Employees'
+2025-06-25 16:51:00.711 +05:30 [DBG] Request matched endpoint 'PAD.Api.Controllers.EmployeesController.GetEmployees (PAD.Api)'
+2025-06-25 16:51:00.727 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-06-25 16:51:00.741 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 16:51:00.759 +05:30 [DBG] Policy authentication schemes  did not succeed
+2025-06-25 16:51:00.782 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-25 16:51:00.801 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-25 16:51:00.817 +05:30 [DBG] Connection id "0HNDJR8SO0H8L" completed keep alive response.
+2025-06-25 16:51:00.832 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Employees - 401 0 null 203.0863ms
+2025-06-25 16:51:12.334 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-06-25 16:51:12.357 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-06-25 16:51:12.368 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:51:12.379 +05:30 [DBG] Connection id "0HNDJR8SO0H8L" completed keep alive response.
+2025-06-25 16:51:12.389 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 54.5731ms
+2025-06-25 16:51:12.570 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-06-25 16:51:12.587 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-06-25 16:51:12.596 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:51:12.627 +05:30 [DBG] Connection id "0HNDJR8SO0H8L" completed keep alive response.
+2025-06-25 16:51:12.632 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.0302ms
+2025-06-25 16:51:18.510 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-06-25 16:51:18.547 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-06-25 16:51:18.564 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:51:18.575 +05:30 [DBG] Connection id "0HNDJR8SO0H8L" completed keep alive response.
+2025-06-25 16:51:18.587 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 76.7783ms
+2025-06-25 16:51:18.659 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-06-25 16:51:18.683 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-06-25 16:51:18.687 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 16:51:18.713 +05:30 [DBG] Connection id "0HNDJR8SO0H8L" completed keep alive response.
+2025-06-25 16:51:18.717 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.716ms
+2025-06-25 16:52:18.786 +05:30 [DBG] Connection id "0HNDJR8SO0H8K" disconnecting.
+2025-06-25 16:52:18.786 +05:30 [DBG] Connection id "0HNDJR8SO0H8J" disconnecting.
+2025-06-25 16:52:18.813 +05:30 [DBG] Connection id "0HNDJR8SO0H8K" stopped.
+2025-06-25 16:52:18.814 +05:30 [DBG] Connection id "0HNDJR8SO0H8J" stopped.
+2025-06-25 16:52:18.839 +05:30 [DBG] Connection id "0HNDJR8SO0H8K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 16:52:18.839 +05:30 [DBG] Connection id "0HNDJR8SO0H8J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 16:52:20.405 +05:30 [DBG] Connection id "0HNDJR8SO0H8L" received FIN.
+2025-06-25 16:52:20.421 +05:30 [DBG] Connection id "0HNDJR8SO0H8L" disconnecting.
+2025-06-25 16:52:20.435 +05:30 [DBG] Connection id "0HNDJR8SO0H8L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 16:52:20.454 +05:30 [DBG] Connection id "0HNDJR8SO0H8L" stopped.
+2025-06-25 17:21:57.435 +05:30 [DBG] Connection id "0HNDJR8SO0H8M" accepted.
+2025-06-25 17:21:57.486 +05:30 [DBG] Connection id "0HNDJR8SO0H8M" started.
+2025-06-25 17:21:57.536 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/main.304afbc0480b843843b8.hot-update.json - null null
+2025-06-25 17:21:57.566 +05:30 [DBG] No candidates found for the request path '/main.304afbc0480b843843b8.hot-update.json'
+2025-06-25 17:21:57.578 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 17:21:57.584 +05:30 [DBG] The request path  does not match the path filter
+2025-06-25 17:21:57.596 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 17:21:57.606 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/main.304afbc0480b843843b8.hot-update.json - 404 0 null 70.7544ms
+2025-06-25 17:21:57.615 +05:30 [DBG] Connection id "0HNDJR8SO0H8M" received FIN.
+2025-06-25 17:21:57.636 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/main.304afbc0480b843843b8.hot-update.json, Response status code: 404
+2025-06-25 17:21:57.640 +05:30 [DBG] Connection id "0HNDJR8SO0H8M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 17:21:57.664 +05:30 [DBG] Connection id "0HNDJR8SO0H8M" disconnecting.
+2025-06-25 17:21:57.672 +05:30 [DBG] Connection id "0HNDJR8SO0H8M" stopped.
+2025-06-25 17:49:11.149 +05:30 [DBG] Connection id "0HNDJR8SO0H8N" accepted.
+2025-06-25 17:49:11.181 +05:30 [DBG] Connection id "0HNDJR8SO0H8N" started.
+2025-06-25 17:49:11.214 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/main.89b62549bd31773e9bf8.hot-update.json - null null
+2025-06-25 17:49:11.257 +05:30 [DBG] No candidates found for the request path '/main.89b62549bd31773e9bf8.hot-update.json'
+2025-06-25 17:49:11.264 +05:30 [DBG] Request did not match any endpoints
+2025-06-25 17:49:11.273 +05:30 [DBG] The request path  does not match the path filter
+2025-06-25 17:49:11.283 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 17:49:11.294 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/main.89b62549bd31773e9bf8.hot-update.json - 404 0 null 80.5343ms
+2025-06-25 17:49:11.302 +05:30 [DBG] Connection id "0HNDJR8SO0H8N" received FIN.
+2025-06-25 17:49:11.332 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/main.89b62549bd31773e9bf8.hot-update.json, Response status code: 404
+2025-06-25 17:49:11.336 +05:30 [DBG] Connection id "0HNDJR8SO0H8N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 17:49:11.378 +05:30 [DBG] Connection id "0HNDJR8SO0H8N" disconnecting.
+2025-06-25 17:49:11.404 +05:30 [DBG] Connection id "0HNDJR8SO0H8N" stopped.

@@ -1,0 +1,12 @@
+C:\Projects\GitHub\PAD\backend\PAD.Core\bin\Debug\net8.0\PAD.Core.deps.json
+C:\Projects\GitHub\PAD\backend\PAD.Core\bin\Debug\net8.0\PAD.Core.dll
+C:\Projects\GitHub\PAD\backend\PAD.Core\bin\Debug\net8.0\PAD.Core.pdb
+C:\Projects\GitHub\PAD\backend\PAD.Core\obj\Debug\net8.0\PAD.Core.csproj.AssemblyReference.cache
+C:\Projects\GitHub\PAD\backend\PAD.Core\obj\Debug\net8.0\PAD.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\GitHub\PAD\backend\PAD.Core\obj\Debug\net8.0\PAD.Core.AssemblyInfoInputs.cache
+C:\Projects\GitHub\PAD\backend\PAD.Core\obj\Debug\net8.0\PAD.Core.AssemblyInfo.cs
+C:\Projects\GitHub\PAD\backend\PAD.Core\obj\Debug\net8.0\PAD.Core.csproj.CoreCompileInputs.cache
+C:\Projects\GitHub\PAD\backend\PAD.Core\obj\Debug\net8.0\PAD.Core.dll
+C:\Projects\GitHub\PAD\backend\PAD.Core\obj\Debug\net8.0\refint\PAD.Core.dll
+C:\Projects\GitHub\PAD\backend\PAD.Core\obj\Debug\net8.0\PAD.Core.pdb
+C:\Projects\GitHub\PAD\backend\PAD.Core\obj\Debug\net8.0\ref\PAD.Core.dll

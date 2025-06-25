@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PAD.Api</name>
+    </assembly>
+    <members>
+        <member name="T:PAD.Api.Controllers.EmployeesController">
+            <summary>
+            Manages employee-related operations including CRUD operations, office assignments, and practice affiliations.
+            </summary>
+        </member>
+        <member name="M:PAD.Api.Controllers.EmployeesController.GetEmployees(PAD.Core.Interfaces.EmployeeSearchCriteria)">
+            <summary>
+            Retrieves a paginated list of employees based on search criteria
+            </summary>
+            <param name="criteria">Search criteria including filters, pagination, and sorting options</param>
+            <returns>A paginated list of employees matching the criteria</returns>
+            <response code="200">Returns the list of employees</response>
+            <response code="400">If the criteria is invalid</response>
+            <response code="401">If the user is not authenticated</response>
+            <response code="500">If there was an internal server error</response>
+        </member>
+        <member name="M:PAD.Api.Controllers.EmployeesController.GetEmployee(System.Int32)">
+            <summary>
+            Retrieves detailed information about a specific employee
+            </summary>
+            <param name="id">The unique identifier of the employee</param>
+            <returns>Detailed information about the employee including affiliations and roles</returns>
+            <response code="200">Returns the employee details</response>
+            <response code="401">If the user is not authenticated</response>
+            <response code="403">If the user doesn't have permission to view this employee</response>
+            <response code="404">If the employee is not found</response>
+            <response code="500">If there was an internal server error</response>
+        </member>
+        <member name="M:PAD.Api.Controllers.EmployeesController.CreateEmployee(PAD.Core.Interfaces.CreateEmployeeRequest)">
+            <summary>
+            Creates a new employee record
+            </summary>
+            <param name="request">The employee information to create</param>
+            <returns>The newly created employee</returns>
+            <remarks>
+            Sample request:
+            
+                POST /api/employees
+                {
+                    "employeeCode": "E12345",
+                    "firstName": "John",
+                    "lastName": "Doe",
+                    "email": "john.doe@example.com",
+                    "level": "Manager",
+                    "title": "Senior Consultant",
+                    "homeOfficeId": 1,
+                    "hireDate": "2023-01-01"
+                }
+            </remarks>
+            <response code="201">Returns the newly created employee</response>
+            <response code="400">If the request is invalid</response>
+            <response code="401">If the user is not authenticated</response>
+            <response code="403">If the user is not authorized to create employees</response>
+            <response code="500">If there was an internal server error</response>
+        </member>
+        <member name="M:PAD.Api.Controllers.EmployeesController.UpdateEmployee(System.Int32,PAD.Core.Interfaces.UpdateEmployeeRequest)">
+            <summary>
+            Updates an existing employee record
+            </summary>
+            <param name="id">The unique identifier of the employee to update</param>
+            <param name="request">The updated employee information</param>
+            <returns>The updated employee</returns>
+            <remarks>
+            Sample request:
+            
+                PUT /api/employees/1
+                {
+                    "firstName": "John",
+                    "lastName": "Doe",
+                    "email": "john.doe@example.com",
+                    "level": "Manager",
+                    "title": "Senior Consultant",
+                    "homeOfficeId": 1
+                }
+            </remarks>
+            <response code="200">Returns the updated employee</response>
+            <response code="400">If the request is invalid</response>
+            <response code="401">If the user is not authenticated</response>
+            <response code="403">If the user is not authorized to update employees</response>
+            <response code="404">If the employee is not found</response>
+            <response code="500">If there was an internal server error</response>
+        </member>
+        <member name="M:PAD.Api.Controllers.EmployeesController.DeleteEmployee(System.Int32)">
+            <summary>
+            Soft deletes an employee record
+            </summary>
+            <param name="id">The unique identifier of the employee to delete</param>
+            <returns>No content if successful</returns>
+            <response code="204">If the employee was successfully deleted</response>
+            <response code="401">If the user is not authenticated</response>
+            <response code="403">If the user is not authorized to delete employees</response>
+            <response code="404">If the employee is not found</response>
+            <response code="500">If there was an internal server error</response>
+        </member>
+        <member name="M:PAD.Api.Controllers.EmployeesController.GetEmployeesByOffice(System.Int32)">
+            <summary>
+            Retrieves all employees assigned to a specific office
+            </summary>
+            <param name="officeId">The unique identifier of the office</param>
+            <returns>A list of employees in the specified office</returns>
+            <response code="200">Returns the list of employees</response>
+            <response code="401">If the user is not authenticated</response>
+            <response code="404">If the office is not found</response>
+            <response code="500">If there was an internal server error</response>
+        </member>
+        <member name="M:PAD.Api.Controllers.EmployeesController.GetEmployeesByPractice(System.Int32)">
+            <summary>
+            Get employees by practice
+            </summary>
+        </member>
+        <member name="M:PAD.Api.Controllers.EmployeesController.CanEditEmployee(System.Int32)">
+            <summary>
+            Check if user can edit employee
+            </summary>
+        </member>
+    </members>
+</doc>

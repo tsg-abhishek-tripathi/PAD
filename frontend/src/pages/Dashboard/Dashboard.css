@@ -1,0 +1,305 @@
+.dashboard {
+  padding: 0;
+}
+
+.dashboard-header {
+  margin-bottom: 24px;
+}
+
+.dashboard-header h2 {
+  margin-bottom: 4px;
+}
+
+.dashboard-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.dashboard-metrics {
+  margin-bottom: 24px;
+}
+
+.dashboard-metrics .ant-card {
+  height: 100%;
+}
+
+.dashboard-metrics .ant-statistic {
+  margin-bottom: 8px;
+}
+
+.dashboard-metrics .ant-statistic-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboard-metrics .ant-progress {
+  margin-bottom: 4px;
+}
+
+.dashboard-content .ant-card {
+  height: 100%;
+}
+
+.dashboard-content .ant-card-body {
+  padding: 20px;
+}
+
+/* Activity List Styles */
+.activity-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.activity-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+}
+
+.activity-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.activity-description {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 4px;
+  word-wrap: break-word;
+}
+
+.activity-meta {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+/* Performers List Styles */
+.performers-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.performer-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.performer-item:last-child {
+  border-bottom: none;
+}
+
+.performer-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.performer-name {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.performer-name .ant-btn {
+  font-weight: 500;
+  color: #1890ff;
+}
+
+.performer-details {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.performer-details .ant-tag {
+  margin: 0;
+  font-size: 11px;
+  padding: 2px 6px;
+  height: auto;
+  line-height: 1.2;
+}
+
+/* Table Customizations */
+.dashboard-content .ant-table {
+  font-size: 13px;
+}
+
+.dashboard-content .ant-table-thead > tr > th {
+  background: #fafafa;
+  font-weight: 600;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.dashboard-content .ant-table-tbody > tr > td {
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.dashboard-content .ant-table-tbody > tr:hover > td {
+  background: #f9f9f9;
+}
+
+/* Card Customizations */
+.dashboard-content .ant-card-head {
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.dashboard-content .ant-card-head-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.dashboard-content .ant-card-extra {
+  font-size: 13px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard-metrics {
+    margin-bottom: 16px;
+  }
+  
+  .dashboard-content {
+    margin-top: 16px;
+  }
+  
+  .dashboard-content .ant-card-body {
+    padding: 16px;
+  }
+  
+  .activity-item,
+  .performer-item {
+    padding: 8px 0;
+  }
+  
+  .performer-details {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+}
+
+@media (max-width: 576px) {
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .dashboard-metrics .ant-statistic-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .activity-description {
+    font-size: 13px;
+  }
+  
+  .performer-name {
+    font-size: 14px;
+  }
+}
+
+/* Loading and Error States */
+.dashboard-loading .ant-spin {
+  margin-bottom: 16px;
+}
+
+.ant-alert {
+  margin-bottom: 24px;
+}
+
+/* Animations */
+.dashboard-metrics .ant-card,
+.dashboard-content .ant-card {
+  transition: all 0.3s ease;
+}
+
+.dashboard-metrics .ant-card:hover,
+.dashboard-content .ant-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.activity-item,
+.performer-item {
+  transition: background-color 0.2s ease;
+}
+
+.activity-item:hover,
+.performer-item:hover {
+  background-color: #f9f9f9;
+}
+
+/* Statistic Customizations */
+.ant-statistic-title {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.ant-statistic-content-value {
+  font-weight: 600;
+}
+
+.ant-statistic-content-prefix {
+  margin-right: 8px;
+  color: #1890ff;
+}
+
+/* Progress Bar Customizations */
+.ant-progress-bg {
+  transition: all 0.3s ease;
+}
+
+/* Avatar Customizations */
+.activity-item .ant-avatar,
+.performer-item .ant-avatar {
+  flex-shrink: 0;
+}
+
+/* Button Customizations */
+.ant-btn-link {
+  padding: 0;
+  height: auto;
+  line-height: 1;
+}
+
+/* Tag Customizations */
+.ant-tag {
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+/* Scrollbar Customizations */
+.activity-list::-webkit-scrollbar,
+.performers-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.activity-list::-webkit-scrollbar-track,
+.performers-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 2px;
+}
+
+.activity-list::-webkit-scrollbar-thumb,
+.performers-list::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 2px;
+}
+
+.activity-list::-webkit-scrollbar-thumb:hover,
+.performers-list::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+} 
