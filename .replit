@@ -31,3 +31,12 @@ args = "cd backend/PAD.Api && dotnet run --urls \"http://0.0.0.0:5000\""
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "cd frontend && npm start"
+
+[[workflows.workflow]]
+name = "Start Frontend"
+author = 41313860
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd frontend && npm start"
