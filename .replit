@@ -8,7 +8,7 @@ channel = "stable-24_05"
 run = ["sh", "-c", "dotnet run"]
 
 [workflows]
-runButton = "Start Full Stack"
+runButton = "Start Backend API"
 
 [[workflows.workflow]]
 name = "Start Backend API"
