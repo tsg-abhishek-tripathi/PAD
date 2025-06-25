@@ -313,3 +313,216 @@ DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
 2025-06-25 17:49:11.336 +05:30 [DBG] Connection id "0HNDJR8SO0H8N" sending FIN because: "The Socket transport's send loop completed gracefully."
 2025-06-25 17:49:11.378 +05:30 [DBG] Connection id "0HNDJR8SO0H8N" disconnecting.
 2025-06-25 17:49:11.404 +05:30 [DBG] Connection id "0HNDJR8SO0H8N" stopped.
+2025-06-25 14:31:03.338 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-25 14:31:03.537 +00:00 [DBG] Hosting starting
+2025-06-25 14:31:03.559 +00:00 [INF] User profile is available. Using '/home/runner/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-06-25 14:31:03.570 +00:00 [DBG] Repository contains no viable default key. Caller should generate a key with immediate activation.
+2025-06-25 14:31:03.570 +00:00 [DBG] Policy resolution states that a new key should be added to the key ring.
+2025-06-25 14:31:03.573 +00:00 [INF] Creating key {f9ab594a-fbb0-42b7-a025-fb113fc91646} with creation date 2025-06-25 14:31:03Z, activation date 2025-06-25 14:31:03Z, and expiration date 2025-09-23 14:31:03Z.
+2025-06-25 14:31:03.583 +00:00 [DBG] Descriptor deserializer type for key {f9ab594a-fbb0-42b7-a025-fb113fc91646} is 'Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'.
+2025-06-25 14:31:03.588 +00:00 [DBG] No key escrow sink found. Not writing key {f9ab594a-fbb0-42b7-a025-fb113fc91646} to escrow.
+2025-06-25 14:31:03.588 +00:00 [WRN] No XML encryptor configured. Key {f9ab594a-fbb0-42b7-a025-fb113fc91646} may be persisted to storage in unencrypted form.
+2025-06-25 14:31:03.606 +00:00 [INF] Writing data to file '/home/runner/.aspnet/DataProtection-Keys/key-f9ab594a-fbb0-42b7-a025-fb113fc91646.xml'.
+2025-06-25 14:31:03.607 +00:00 [DBG] Key cache expiration token triggered by 'CreateNewKey' operation.
+2025-06-25 14:31:03.608 +00:00 [DBG] Reading data from file '/home/runner/.aspnet/DataProtection-Keys/key-f9ab594a-fbb0-42b7-a025-fb113fc91646.xml'.
+2025-06-25 14:31:03.617 +00:00 [DBG] Found key {f9ab594a-fbb0-42b7-a025-fb113fc91646}.
+2025-06-25 14:31:03.629 +00:00 [DBG] Considering key {f9ab594a-fbb0-42b7-a025-fb113fc91646} with expiration date 2025-09-23 14:31:03Z as default key.
+2025-06-25 14:31:03.632 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-25 14:31:03.634 +00:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-06-25 14:31:03.634 +00:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2025-06-25 14:31:03.637 +00:00 [DBG] Using key {f9ab594a-fbb0-42b7-a025-fb113fc91646} as the default key.
+2025-06-25 14:31:03.638 +00:00 [DBG] Key ring with default key {f9ab594a-fbb0-42b7-a025-fb113fc91646} was loaded during application startup.
+2025-06-25 14:31:03.710 +00:00 [INF] Now listening on: http://0.0.0.0:5000
+2025-06-25 14:31:03.710 +00:00 [DBG] Loaded hosting startup assembly PAD.Api
+2025-06-25 14:31:03.711 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-25 14:31:03.711 +00:00 [INF] Hosting environment: Production
+2025-06-25 14:31:03.711 +00:00 [INF] Content root path: /home/runner/workspace/backend/PAD.Api
+2025-06-25 14:31:03.712 +00:00 [DBG] Hosting started
+2025-06-25 14:31:05.533 +00:00 [DBG] Connection id "0HNDJUJLILRBK" accepted.
+2025-06-25 14:31:05.535 +00:00 [DBG] Connection id "0HNDJUJLILRBK" started.
+2025-06-25 14:31:05.579 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/ - null null
+2025-06-25 14:31:05.582 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-25 14:31:05.615 +00:00 [DBG] No candidates found for the request path '/'
+2025-06-25 14:31:05.617 +00:00 [DBG] Request did not match any endpoints
+2025-06-25 14:31:05.648 +00:00 [DBG] The request path  does not match the path filter
+2025-06-25 14:31:05.649 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-06-25 14:31:05.710 +00:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 14:31:05.723 +00:00 [DBG] Connection id "0HNDJUJLILRBK" completed keep alive response.
+2025-06-25 14:31:05.725 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/ - 404 0 null 146.5903ms
+2025-06-25 14:31:05.731 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/, Response status code: 404
+2025-06-25 14:32:35.733 +00:00 [DBG] Connection id "0HNDJUJLILRBK" received FIN.
+2025-06-25 14:32:35.736 +00:00 [DBG] Connection id "0HNDJUJLILRBK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 14:32:35.739 +00:00 [DBG] Connection id "0HNDJUJLILRBK" disconnecting.
+2025-06-25 14:32:35.741 +00:00 [DBG] Connection id "0HNDJUJLILRBK" stopped.
+2025-06-25 14:38:47.133 +00:00 [INF] Application is shutting down...
+2025-06-25 14:38:47.137 +00:00 [DBG] Hosting stopping
+2025-06-25 14:38:47.151 +00:00 [DBG] Hosting stopped
+Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-25 14:35:15.741 +00:00 [DBG] Hosting starting
+2025-06-25 14:35:15.755 +00:00 [INF] User profile is available. Using '/home/runner/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-06-25 14:35:15.776 +00:00 [DBG] Reading data from file '/home/runner/.aspnet/DataProtection-Keys/key-f9ab594a-fbb0-42b7-a025-fb113fc91646.xml'.
+2025-06-25 14:35:15.808 +00:00 [DBG] Found key {f9ab594a-fbb0-42b7-a025-fb113fc91646}.
+2025-06-25 14:35:15.848 +00:00 [DBG] Considering key {f9ab594a-fbb0-42b7-a025-fb113fc91646} with expiration date 2025-09-23 14:31:03Z as default key.
+2025-06-25 14:35:15.854 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-25 14:35:15.857 +00:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-06-25 14:35:15.858 +00:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2025-06-25 14:35:15.868 +00:00 [DBG] Using key {f9ab594a-fbb0-42b7-a025-fb113fc91646} as the default key.
+2025-06-25 14:35:15.870 +00:00 [DBG] Key ring with default key {f9ab594a-fbb0-42b7-a025-fb113fc91646} was loaded during application startup.
+2025-06-25 14:35:15.978 +00:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://0.0.0.0:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (98): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-06-25 14:37:06.628 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-25 14:37:06.818 +00:00 [DBG] Hosting starting
+2025-06-25 14:37:06.846 +00:00 [INF] User profile is available. Using '/home/runner/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-06-25 14:37:06.866 +00:00 [DBG] Reading data from file '/home/runner/.aspnet/DataProtection-Keys/key-f9ab594a-fbb0-42b7-a025-fb113fc91646.xml'.
+2025-06-25 14:37:06.872 +00:00 [DBG] Found key {f9ab594a-fbb0-42b7-a025-fb113fc91646}.
+2025-06-25 14:37:06.880 +00:00 [DBG] Considering key {f9ab594a-fbb0-42b7-a025-fb113fc91646} with expiration date 2025-09-23 14:31:03Z as default key.
+2025-06-25 14:37:06.882 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-25 14:37:06.884 +00:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-06-25 14:37:06.885 +00:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2025-06-25 14:37:06.890 +00:00 [DBG] Using key {f9ab594a-fbb0-42b7-a025-fb113fc91646} as the default key.
+2025-06-25 14:37:06.907 +00:00 [DBG] Key ring with default key {f9ab594a-fbb0-42b7-a025-fb113fc91646} was loaded during application startup.
+2025-06-25 14:37:06.978 +00:00 [INF] Now listening on: http://0.0.0.0:5001
+2025-06-25 14:37:06.978 +00:00 [DBG] Loaded hosting startup assembly PAD.Api
+2025-06-25 14:37:06.979 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-25 14:37:06.979 +00:00 [INF] Hosting environment: Production
+2025-06-25 14:37:06.979 +00:00 [INF] Content root path: /home/runner/workspace/backend/PAD.Api
+2025-06-25 14:37:06.980 +00:00 [DBG] Hosting started
+2025-06-25 14:38:08.570 +00:00 [DBG] Connection id "0HNDJUNJL2M8M" accepted.
+2025-06-25 14:38:08.571 +00:00 [DBG] Connection id "0HNDJUNJL2M8M" started.
+2025-06-25 14:38:08.624 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/ - null null
+2025-06-25 14:38:08.631 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-25 14:38:08.647 +00:00 [DBG] No candidates found for the request path '/'
+2025-06-25 14:38:08.648 +00:00 [DBG] Request did not match any endpoints
+2025-06-25 14:38:08.669 +00:00 [DBG] The request path  does not match the path filter
+2025-06-25 14:38:08.672 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-06-25 14:38:08.744 +00:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 14:38:08.749 +00:00 [DBG] Connection id "0HNDJUNJL2M8M" completed keep alive response.
+2025-06-25 14:38:08.751 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/ - 404 0 null 131.3369ms
+2025-06-25 14:38:08.758 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/, Response status code: 404
+2025-06-25 14:38:47.129 +00:00 [INF] Application is shutting down...
+2025-06-25 14:38:47.131 +00:00 [DBG] Hosting stopping
+2025-06-25 14:38:47.148 +00:00 [DBG] Connection id "0HNDJUNJL2M8M" disconnecting.
+2025-06-25 14:38:47.150 +00:00 [DBG] Connection id "0HNDJUNJL2M8M" stopped.
+2025-06-25 14:38:47.154 +00:00 [DBG] Connection id "0HNDJUNJL2M8M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 14:38:47.159 +00:00 [DBG] Hosting stopped
+2025-06-25 14:38:57.689 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-25 14:38:57.921 +00:00 [DBG] Hosting starting
+2025-06-25 14:38:57.948 +00:00 [INF] User profile is available. Using '/home/runner/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-06-25 14:38:57.962 +00:00 [DBG] Reading data from file '/home/runner/.aspnet/DataProtection-Keys/key-f9ab594a-fbb0-42b7-a025-fb113fc91646.xml'.
+2025-06-25 14:38:57.969 +00:00 [DBG] Found key {f9ab594a-fbb0-42b7-a025-fb113fc91646}.
+2025-06-25 14:38:57.976 +00:00 [DBG] Considering key {f9ab594a-fbb0-42b7-a025-fb113fc91646} with expiration date 2025-09-23 14:31:03Z as default key.
+2025-06-25 14:38:57.978 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-25 14:38:57.981 +00:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-06-25 14:38:57.983 +00:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2025-06-25 14:38:57.989 +00:00 [DBG] Using key {f9ab594a-fbb0-42b7-a025-fb113fc91646} as the default key.
+2025-06-25 14:38:57.990 +00:00 [DBG] Key ring with default key {f9ab594a-fbb0-42b7-a025-fb113fc91646} was loaded during application startup.
+2025-06-25 14:38:58.107 +00:00 [INF] Now listening on: http://0.0.0.0:5001
+2025-06-25 14:38:58.107 +00:00 [DBG] Loaded hosting startup assembly PAD.Api
+2025-06-25 14:38:58.114 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-25 14:38:58.114 +00:00 [INF] Hosting environment: Production
+2025-06-25 14:38:58.115 +00:00 [INF] Content root path: /home/runner/workspace/backend/PAD.Api
+2025-06-25 14:38:58.118 +00:00 [DBG] Hosting started
+2025-06-25 14:38:58.765 +00:00 [DBG] Connection id "0HNDJUO2JOPUG" accepted.
+2025-06-25 14:38:58.771 +00:00 [DBG] Connection id "0HNDJUO2JOPUG" started.
+2025-06-25 14:38:58.855 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/ - null null
+2025-06-25 14:38:58.866 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-25 14:38:58.883 +00:00 [DBG] No candidates found for the request path '/'
+2025-06-25 14:38:58.884 +00:00 [DBG] Request did not match any endpoints
+2025-06-25 14:38:58.947 +00:00 [DBG] The request path  does not match the path filter
+2025-06-25 14:38:58.948 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-06-25 14:38:59.043 +00:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 14:38:59.053 +00:00 [DBG] Connection id "0HNDJUO2JOPUG" completed keep alive response.
+2025-06-25 14:38:59.054 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/ - 404 0 null 203.5223ms
+2025-06-25 14:38:59.062 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/, Response status code: 404
+2025-06-25 14:40:29.060 +00:00 [DBG] Connection id "0HNDJUO2JOPUG" received FIN.
+2025-06-25 14:40:29.063 +00:00 [DBG] Connection id "0HNDJUO2JOPUG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 14:40:29.066 +00:00 [DBG] Connection id "0HNDJUO2JOPUG" disconnecting.
+2025-06-25 14:40:29.067 +00:00 [DBG] Connection id "0HNDJUO2JOPUG" stopped.
+2025-06-25 14:40:35.578 +00:00 [INF] Application is shutting down...
+2025-06-25 14:40:35.578 +00:00 [DBG] Hosting stopping
+2025-06-25 14:40:35.585 +00:00 [DBG] Hosting stopped
+2025-06-25 14:40:47.154 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-25 14:40:47.278 +00:00 [DBG] Hosting starting
+2025-06-25 14:40:47.286 +00:00 [INF] User profile is available. Using '/home/runner/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-06-25 14:40:47.308 +00:00 [DBG] Reading data from file '/home/runner/.aspnet/DataProtection-Keys/key-f9ab594a-fbb0-42b7-a025-fb113fc91646.xml'.
+2025-06-25 14:40:47.322 +00:00 [DBG] Found key {f9ab594a-fbb0-42b7-a025-fb113fc91646}.
+2025-06-25 14:40:47.331 +00:00 [DBG] Considering key {f9ab594a-fbb0-42b7-a025-fb113fc91646} with expiration date 2025-09-23 14:31:03Z as default key.
+2025-06-25 14:40:47.341 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-25 14:40:47.344 +00:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-06-25 14:40:47.345 +00:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2025-06-25 14:40:47.353 +00:00 [DBG] Using key {f9ab594a-fbb0-42b7-a025-fb113fc91646} as the default key.
+2025-06-25 14:40:47.354 +00:00 [DBG] Key ring with default key {f9ab594a-fbb0-42b7-a025-fb113fc91646} was loaded during application startup.
+2025-06-25 14:40:47.438 +00:00 [INF] Now listening on: http://0.0.0.0:5001
+2025-06-25 14:40:47.438 +00:00 [DBG] Loaded hosting startup assembly PAD.Api
+2025-06-25 14:40:47.439 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-25 14:40:47.439 +00:00 [INF] Hosting environment: Production
+2025-06-25 14:40:47.439 +00:00 [INF] Content root path: /home/runner/workspace/backend/PAD.Api
+2025-06-25 14:40:47.440 +00:00 [DBG] Hosting started
+2025-06-25 14:40:48.234 +00:00 [DBG] Connection id "0HNDJUP37O87A" accepted.
+2025-06-25 14:40:48.236 +00:00 [DBG] Connection id "0HNDJUP37O87A" started.
+2025-06-25 14:40:48.272 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/ - null null
+2025-06-25 14:40:48.283 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-25 14:40:48.321 +00:00 [DBG] No candidates found for the request path '/'
+2025-06-25 14:40:48.324 +00:00 [DBG] Request did not match any endpoints
+2025-06-25 14:40:48.356 +00:00 [DBG] The request path  does not match the path filter
+2025-06-25 14:40:48.357 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-06-25 14:40:48.445 +00:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 14:40:48.453 +00:00 [DBG] Connection id "0HNDJUP37O87A" completed keep alive response.
+2025-06-25 14:40:48.455 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/ - 404 0 null 185.1283ms
+2025-06-25 14:40:48.461 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/, Response status code: 404
+2025-06-25 14:41:30.428 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-25 14:41:30.561 +00:00 [DBG] Hosting starting
+2025-06-25 14:41:30.568 +00:00 [INF] User profile is available. Using '/home/runner/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-06-25 14:41:30.574 +00:00 [DBG] Reading data from file '/home/runner/.aspnet/DataProtection-Keys/key-f9ab594a-fbb0-42b7-a025-fb113fc91646.xml'.
+2025-06-25 14:41:30.580 +00:00 [DBG] Found key {f9ab594a-fbb0-42b7-a025-fb113fc91646}.
+2025-06-25 14:41:30.587 +00:00 [DBG] Considering key {f9ab594a-fbb0-42b7-a025-fb113fc91646} with expiration date 2025-09-23 14:31:03Z as default key.
+2025-06-25 14:41:30.589 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-25 14:41:30.606 +00:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-06-25 14:41:30.606 +00:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2025-06-25 14:41:30.631 +00:00 [DBG] Using key {f9ab594a-fbb0-42b7-a025-fb113fc91646} as the default key.
+2025-06-25 14:41:30.632 +00:00 [DBG] Key ring with default key {f9ab594a-fbb0-42b7-a025-fb113fc91646} was loaded during application startup.
+2025-06-25 14:41:30.673 +00:00 [INF] Now listening on: http://0.0.0.0:5001
+2025-06-25 14:41:30.674 +00:00 [DBG] Loaded hosting startup assembly PAD.Api
+2025-06-25 14:41:30.675 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-25 14:41:30.675 +00:00 [INF] Hosting environment: Production
+2025-06-25 14:41:30.675 +00:00 [INF] Content root path: /home/runner/workspace/backend/PAD.Api
+2025-06-25 14:41:30.675 +00:00 [DBG] Hosting started
+2025-06-25 14:41:31.013 +00:00 [DBG] Connection id "0HNDJUPFVH092" accepted.
+2025-06-25 14:41:31.018 +00:00 [DBG] Connection id "0HNDJUPFVH092" started.
+2025-06-25 14:41:31.059 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/ - null null
+2025-06-25 14:41:31.063 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-25 14:41:31.078 +00:00 [DBG] No candidates found for the request path '/'
+2025-06-25 14:41:31.079 +00:00 [DBG] Request did not match any endpoints
+2025-06-25 14:41:31.123 +00:00 [DBG] The request path  does not match the path filter
+2025-06-25 14:41:31.124 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-06-25 14:41:31.178 +00:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 14:41:31.182 +00:00 [DBG] Connection id "0HNDJUPFVH092" completed keep alive response.
+2025-06-25 14:41:31.183 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/ - 404 0 null 125.526ms
+2025-06-25 14:41:31.188 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/, Response status code: 404
+2025-06-25 14:43:01.185 +00:00 [DBG] Connection id "0HNDJUPFVH092" received FIN.
+2025-06-25 14:43:01.188 +00:00 [DBG] Connection id "0HNDJUPFVH092" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 14:43:01.221 +00:00 [DBG] Connection id "0HNDJUPFVH092" disconnecting.
+2025-06-25 14:43:01.229 +00:00 [DBG] Connection id "0HNDJUPFVH092" stopped.

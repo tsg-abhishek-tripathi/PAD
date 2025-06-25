@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "EiFS2Jo3Ll3EfHYho3Ugom8g8dQW277ANIbNsLOrmjU=",
+  "Hash": "XKQhoEexlIpRKM3y0SJK037G5HXcaAWrJnVP6BNu4iM=",
   "Source": "PAD.Api",
   "BasePath": "_content/PAD.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

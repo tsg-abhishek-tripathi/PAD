@@ -1,43 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Api\\PAD.Api.csproj": {}
+    "/home/runner/workspace/backend/PAD.Api/PAD.Api.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Api\\PAD.Api.csproj": {
+    "/home/runner/workspace/backend/PAD.Api/PAD.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Api\\PAD.Api.csproj",
+        "projectUniqueName": "/home/runner/workspace/backend/PAD.Api/PAD.Api.csproj",
         "projectName": "PAD.Api",
-        "projectPath": "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Api\\PAD.Api.csproj",
-        "packagesPath": "C:\\Users\\42atr\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Api\\obj\\",
+        "projectPath": "/home/runner/workspace/backend/PAD.Api/PAD.Api.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/workspace/backend/PAD.Api/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\42atr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Core\\PAD.Core.csproj": {
-                "projectPath": "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Core\\PAD.Core.csproj"
+              "/home/runner/workspace/backend/PAD.Core/PAD.Core.csproj": {
+                "projectPath": "/home/runner/workspace/backend/PAD.Core/PAD.Core.csproj"
               },
-              "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Infrastructure\\PAD.Infrastructure.csproj": {
-                "projectPath": "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Infrastructure\\PAD.Infrastructure.csproj"
+              "/home/runner/workspace/backend/PAD.Infrastructure/PAD.Infrastructure.csproj": {
+                "projectPath": "/home/runner/workspace/backend/PAD.Infrastructure/PAD.Infrastructure.csproj"
               }
             }
           }
@@ -51,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -134,33 +126,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/nix/store/wlknwwx8f79lq8n07b0xh7ddjrrk191h-dotnet-sdk-8.0.404/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Core\\PAD.Core.csproj": {
+    "/home/runner/workspace/backend/PAD.Core/PAD.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Core\\PAD.Core.csproj",
+        "projectUniqueName": "/home/runner/workspace/backend/PAD.Core/PAD.Core.csproj",
         "projectName": "PAD.Core",
-        "projectPath": "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Core\\PAD.Core.csproj",
-        "packagesPath": "C:\\Users\\42atr\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Core\\obj\\",
+        "projectPath": "/home/runner/workspace/backend/PAD.Core/PAD.Core.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/workspace/backend/PAD.Core/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\42atr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -178,8 +163,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -210,41 +194,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/nix/store/wlknwwx8f79lq8n07b0xh7ddjrrk191h-dotnet-sdk-8.0.404/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Infrastructure\\PAD.Infrastructure.csproj": {
+    "/home/runner/workspace/backend/PAD.Infrastructure/PAD.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Infrastructure\\PAD.Infrastructure.csproj",
+        "projectUniqueName": "/home/runner/workspace/backend/PAD.Infrastructure/PAD.Infrastructure.csproj",
         "projectName": "PAD.Infrastructure",
-        "projectPath": "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Infrastructure\\PAD.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\42atr\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Infrastructure\\obj\\",
+        "projectPath": "/home/runner/workspace/backend/PAD.Infrastructure/PAD.Infrastructure.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/workspace/backend/PAD.Infrastructure/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\42atr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Core\\PAD.Core.csproj": {
-                "projectPath": "C:\\Projects\\GitHub\\PAD\\backend\\PAD.Core\\PAD.Core.csproj"
+              "/home/runner/workspace/backend/PAD.Core/PAD.Core.csproj": {
+                "projectPath": "/home/runner/workspace/backend/PAD.Core/PAD.Core.csproj"
               }
             }
           }
@@ -258,8 +235,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -318,7 +294,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/nix/store/wlknwwx8f79lq8n07b0xh7ddjrrk191h-dotnet-sdk-8.0.404/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
