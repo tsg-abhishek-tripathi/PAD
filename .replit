@@ -8,7 +8,7 @@ channel = "stable-24_05"
 run = ["sh", "-c", "dotnet run"]
 
 [workflows]
-runButton = "Start Backend API"
+runButton = "Start Full Stack"
 
 [[workflows.workflow]]
 name = "Start Backend API"
@@ -26,7 +26,7 @@ mode = "parallel"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "cd backend/PAD.Api && dotnet run --urls \"http://0.0.0.0:5000\""
+args = "cd backend/PAD.Api && dotnet run --urls \"http://0.0.0.0:5001\""
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
@@ -40,3 +40,11 @@ mode = "sequential"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "cd frontend && npm start"
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[[ports]]
+localPort = 5001
+externalPort = 3000
