@@ -30,7 +30,7 @@ args = "cd backend/PAD.Api && dotnet run"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "cd frontend && PORT=3000 npm start"
+args = "cd frontend && echo \"y\" | npm start"
 
 [[workflows.workflow]]
 name = "Start Frontend"
