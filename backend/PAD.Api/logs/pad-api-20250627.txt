@@ -499,3 +499,55 @@
 2025-06-27 07:33:30.637 +00:00 [DBG] Request did not match any endpoints
 2025-06-27 07:33:30.773 +00:00 [DBG] Connection id "0HNDL9JKN9CO2" completed keep alive response.
 2025-06-27 07:33:30.773 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 137.8344ms
+2025-06-27 07:34:52.101 +00:00 [INF] Application is shutting down...
+2025-06-27 07:34:52.103 +00:00 [DBG] Hosting stopping
+2025-06-27 07:34:52.147 +00:00 [DBG] Connection id "0HNDL9JKN9CO2" disconnecting.
+2025-06-27 07:34:52.154 +00:00 [DBG] Connection id "0HNDL9JKN9CO2" stopped.
+2025-06-27 07:34:52.158 +00:00 [DBG] Connection id "0HNDL9JKN9CO2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-27 07:34:52.173 +00:00 [DBG] Hosting stopped
+2025-06-27 07:35:08.080 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-27 07:35:08.334 +00:00 [DBG] Hosting starting
+2025-06-27 07:35:08.359 +00:00 [INF] User profile is available. Using '/home/runner/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-06-27 07:35:08.374 +00:00 [DBG] Reading data from file '/home/runner/.aspnet/DataProtection-Keys/key-abe028ba-729e-46ef-8708-c82dc96d805e.xml'.
+2025-06-27 07:35:08.382 +00:00 [DBG] Found key {abe028ba-729e-46ef-8708-c82dc96d805e}.
+2025-06-27 07:35:08.392 +00:00 [DBG] Considering key {abe028ba-729e-46ef-8708-c82dc96d805e} with expiration date 2025-09-25 07:19:24Z as default key.
+2025-06-27 07:35:08.395 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-27 07:35:08.399 +00:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-06-27 07:35:08.399 +00:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2025-06-27 07:35:08.408 +00:00 [DBG] Using key {abe028ba-729e-46ef-8708-c82dc96d805e} as the default key.
+2025-06-27 07:35:08.409 +00:00 [DBG] Key ring with default key {abe028ba-729e-46ef-8708-c82dc96d805e} was loaded during application startup.
+2025-06-27 07:35:08.466 +00:00 [WRN] Overriding address(es) 'http://0.0.0.0:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-06-27 07:35:08.480 +00:00 [INF] Now listening on: http://0.0.0.0:5000
+2025-06-27 07:35:08.480 +00:00 [DBG] Loaded hosting startup assembly PAD.Api
+2025-06-27 07:35:08.481 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-27 07:35:08.481 +00:00 [INF] Hosting environment: Production
+2025-06-27 07:35:08.481 +00:00 [INF] Content root path: /home/runner/workspace/backend/PAD.Api
+2025-06-27 07:35:08.482 +00:00 [DBG] Hosting started
+2025-06-27 07:35:08.794 +00:00 [DBG] Connection id "0HNDL9KI9SLS1" accepted.
+2025-06-27 07:35:08.796 +00:00 [DBG] Connection id "0HNDL9KI9SLS1" started.
+2025-06-27 07:35:08.829 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/ - null null
+2025-06-27 07:35:08.834 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-27 07:35:08.856 +00:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-06-27 07:35:08.859 +00:00 [DBG] Request matched endpoint 'HTTP: GET /'
+2025-06-27 07:35:08.892 +00:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-06-27 07:35:08.893 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-06-27 07:35:08.950 +00:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-27 07:35:08.952 +00:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-06-27 07:35:08.955 +00:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-06-27 07:35:08.956 +00:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-06-27 07:35:08.959 +00:00 [DBG] Connection id "0HNDL9KI9SLS1" completed keep alive response.
+2025-06-27 07:35:08.960 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/ - 302 0 null 132.6309ms
+2025-06-27 07:35:09.048 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/index.html - null null
+2025-06-27 07:35:09.050 +00:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-06-27 07:35:09.051 +00:00 [DBG] Request did not match any endpoints
+2025-06-27 07:35:09.202 +00:00 [DBG] Connection id "0HNDL9KI9SLS1" completed keep alive response.
+2025-06-27 07:35:09.204 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/index.html - 200 null text/html;charset=utf-8 155.3083ms
+2025-06-27 07:35:09.775 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/v1/swagger.json - null null
+2025-06-27 07:35:09.777 +00:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-06-27 07:35:09.777 +00:00 [DBG] Request did not match any endpoints
+2025-06-27 07:35:09.905 +00:00 [DBG] Connection id "0HNDL9KI9SLS1" completed keep alive response.
+2025-06-27 07:35:09.906 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 130.3491ms
+2025-06-27 07:36:39.909 +00:00 [DBG] Connection id "0HNDL9KI9SLS1" received FIN.
+2025-06-27 07:36:39.912 +00:00 [DBG] Connection id "0HNDL9KI9SLS1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-27 07:36:39.917 +00:00 [DBG] Connection id "0HNDL9KI9SLS1" disconnecting.
+2025-06-27 07:36:39.918 +00:00 [DBG] Connection id "0HNDL9KI9SLS1" stopped.
