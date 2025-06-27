@@ -5,7 +5,7 @@ export const msalConfig: Configuration = {
   auth: {
     clientId: process.env.REACT_APP_CLIENT_ID || "YOUR_CLIENT_ID",
     authority: `https://login.microsoftonline.com/${process.env.REACT_APP_TENANT_ID || "YOUR_TENANT_ID"}`,
-    redirectUri: window.location.origin,
+    redirectUri: "https://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev",
   },
   cache: {
     cacheLocation: 'sessionStorage', // This configures where your cache will be stored
@@ -54,7 +54,7 @@ export const apiRequest: PopupRequest = {
 
 // Environment-specific configuration
 export const apiConfig = {
-  baseUrl: process.env.REACT_APP_API_BASE_URL || 'http://localhost:5000/api',
+  baseUrl: process.env.REACT_APP_API_BASE_URL || 'https://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/api',
   timeout: 30000
 };
 
