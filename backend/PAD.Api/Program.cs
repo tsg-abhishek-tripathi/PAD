@@ -162,6 +162,12 @@ builder.Services.AddHealthChecks()
 
 var app = builder.Build();
 
+// Log the port information
+var logger = app.Services.GetRequiredService<ILogger<Program>>();
+logger.LogInformation("🚀 PAD 2.0 Backend API starting on port 5000");
+logger.LogInformation("📊 Swagger documentation will be available at: /swagger");
+logger.LogInformation("🔗 API endpoints available at: /api/*");
+
 // Configure the HTTP request pipeline
 app.UseSwagger();
 app.UseSwaggerUI(c =>
