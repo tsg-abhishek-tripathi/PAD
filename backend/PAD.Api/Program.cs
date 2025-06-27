@@ -188,6 +188,9 @@ app.MapControllers();
 // Add health check endpoints
 app.MapHealthChecks("/health");
 
+// Add a default root endpoint that redirects to Swagger
+app.MapGet("/", () => Results.Redirect("/swagger"));
+
 // API endpoints are available at /api/* routes
 // Swagger documentation available at /swagger
 
