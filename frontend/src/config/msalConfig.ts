@@ -3,9 +3,9 @@ import { Configuration, PopupRequest, PublicClientApplication } from '@azure/msa
 // MSAL configuration
 export const msalConfig: Configuration = {
   auth: {
-    clientId: process.env.REACT_APP_CLIENT_ID || "YOUR_CLIENT_ID",
-    authority: `https://login.microsoftonline.com/${process.env.REACT_APP_TENANT_ID || "YOUR_TENANT_ID"}`,
-    redirectUri: window.location.origin,
+    clientId: process.env.REACT_APP_AZURE_CLIENT_ID || "6b2f8156-2bfb-4963-bd0d-9e8e8ccc41b2",
+    authority: `https://login.microsoftonline.com/${process.env.REACT_APP_AZURE_TENANT_ID || "eb120e12-65f1-477a-be8c-fe4f65926724"}`,
+    redirectUri: process.env.REACT_APP_REDIRECT_URI || window.location.origin,
   },
   cache: {
     cacheLocation: 'sessionStorage', // This configures where your cache will be stored
@@ -39,7 +39,7 @@ export const msalConfig: Configuration = {
 
 // Add scopes here for ID token to be used at Microsoft identity platform endpoints.
 export const loginRequest: PopupRequest = {
-  scopes: ["User.Read", "api://YOUR_API_CLIENT_ID/access_as_user"]
+  scopes: ["User.Read", process.env.REACT_APP_API_SCOPE || "api://e7fcbcbc-56ff-4bf5-8255-0cd77f38512a/access_as_user"]
 };
 
 // Add the endpoints here for Microsoft Graph API services you'd like to use.
