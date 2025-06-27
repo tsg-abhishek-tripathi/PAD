@@ -20,6 +20,9 @@ Log.Logger = new LoggerConfiguration()
 
 builder.Host.UseSerilog();
 
+// Add the following line to configure the port
+builder.WebHost.UseUrls("http://0.0.0.0:5000");
+
 // Add services to the container
 builder.Services.AddControllers();
 
@@ -103,7 +106,7 @@ Key Features:
             Url = new Uri("https://www.bain.com")
         }
     });
-    
+
     // Add JWT authentication to Swagger
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
@@ -113,7 +116,7 @@ Key Features:
         Type = SecuritySchemeType.ApiKey,
         Scheme = "Bearer"
     });
-    
+
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
         {
@@ -224,7 +227,7 @@ public class GlobalExceptionMiddleware
     private static async Task HandleExceptionAsync(HttpContext context, Exception exception)
     {
         context.Response.ContentType = "application/json";
-        
+
         var response = new
         {
             error = new
@@ -245,4 +248,4 @@ public class GlobalExceptionMiddleware
 
         await context.Response.WriteAsync(System.Text.Json.JsonSerializer.Serialize(response));
     }
-} 
+}
