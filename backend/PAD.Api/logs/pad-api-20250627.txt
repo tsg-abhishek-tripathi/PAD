@@ -551,3 +551,6 @@
 2025-06-27 07:36:39.912 +00:00 [DBG] Connection id "0HNDL9KI9SLS1" sending FIN because: "The Socket transport's send loop completed gracefully."
 2025-06-27 07:36:39.917 +00:00 [DBG] Connection id "0HNDL9KI9SLS1" disconnecting.
 2025-06-27 07:36:39.918 +00:00 [DBG] Connection id "0HNDL9KI9SLS1" stopped.
+2025-06-27 07:38:54.503 +00:00 [INF] Application is shutting down...
+2025-06-27 07:38:54.504 +00:00 [DBG] Hosting stopping
+2025-06-27 07:38:54.515 +00:00 [DBG] Hosting stopped
