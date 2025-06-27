@@ -526,3 +526,124 @@ System.IO.IOException: Failed to bind to address http://0.0.0.0:5000: address al
 2025-06-25 14:43:01.188 +00:00 [DBG] Connection id "0HNDJUPFVH092" sending FIN because: "The Socket transport's send loop completed gracefully."
 2025-06-25 14:43:01.221 +00:00 [DBG] Connection id "0HNDJUPFVH092" disconnecting.
 2025-06-25 14:43:01.229 +00:00 [DBG] Connection id "0HNDJUPFVH092" stopped.
+2025-06-25 14:43:49.426 +00:00 [DBG] Config reload token fired. Checking for changes...
+2025-06-25 14:43:49.426 +00:00 [INF] Config changed. Starting the following endpoints: 'http://0.0.0.0:5001'
+2025-06-25 14:43:49.432 +00:00 [FTL] Unable to bind to 'http://0.0.0.0:5001' on config reload.
+System.IO.IOException: Failed to bind to address http://0.0.0.0:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (98): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.RebindAsync()
+2025-06-25 14:43:51.639 +00:00 [INF] Application is shutting down...
+2025-06-25 14:43:51.640 +00:00 [DBG] Hosting stopping
+2025-06-25 14:43:51.646 +00:00 [DBG] Hosting stopped
+2025-06-25 14:44:03.931 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-25 14:44:04.089 +00:00 [DBG] Hosting starting
+2025-06-25 14:44:04.121 +00:00 [INF] User profile is available. Using '/home/runner/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-06-25 14:44:04.144 +00:00 [DBG] Reading data from file '/home/runner/.aspnet/DataProtection-Keys/key-f9ab594a-fbb0-42b7-a025-fb113fc91646.xml'.
+2025-06-25 14:44:04.151 +00:00 [DBG] Found key {f9ab594a-fbb0-42b7-a025-fb113fc91646}.
+2025-06-25 14:44:04.161 +00:00 [DBG] Considering key {f9ab594a-fbb0-42b7-a025-fb113fc91646} with expiration date 2025-09-23 14:31:03Z as default key.
+2025-06-25 14:44:04.164 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-25 14:44:04.166 +00:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-06-25 14:44:04.167 +00:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2025-06-25 14:44:04.178 +00:00 [DBG] Using key {f9ab594a-fbb0-42b7-a025-fb113fc91646} as the default key.
+2025-06-25 14:44:04.180 +00:00 [DBG] Key ring with default key {f9ab594a-fbb0-42b7-a025-fb113fc91646} was loaded during application startup.
+2025-06-25 14:44:04.266 +00:00 [WRN] Overriding address(es) 'http://0.0.0.0:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-06-25 14:44:04.353 +00:00 [INF] Now listening on: http://0.0.0.0:5001
+2025-06-25 14:44:04.354 +00:00 [DBG] Loaded hosting startup assembly PAD.Api
+2025-06-25 14:44:04.354 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-25 14:44:04.354 +00:00 [INF] Hosting environment: Production
+2025-06-25 14:44:04.355 +00:00 [INF] Content root path: /home/runner/workspace/backend/PAD.Api
+2025-06-25 14:44:04.355 +00:00 [DBG] Hosting started
+2025-06-25 14:44:04.788 +00:00 [DBG] Connection id "0HNDJUQTQ7K2U" accepted.
+2025-06-25 14:44:04.789 +00:00 [DBG] Connection id "0HNDJUQTQ7K2U" started.
+2025-06-25 14:44:04.853 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/ - null null
+2025-06-25 14:44:04.856 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-25 14:44:04.873 +00:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-06-25 14:44:04.874 +00:00 [DBG] Request matched endpoint 'HTTP: GET /'
+2025-06-25 14:44:04.911 +00:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-06-25 14:44:04.913 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-06-25 14:44:04.973 +00:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 14:44:04.976 +00:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-06-25 14:44:04.980 +00:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-06-25 14:44:04.981 +00:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-06-25 14:44:04.983 +00:00 [DBG] Connection id "0HNDJUQTQ7K2U" completed keep alive response.
+2025-06-25 14:44:04.985 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/ - 302 0 null 133.5076ms
+2025-06-25 14:44:05.039 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger - null null
+2025-06-25 14:44:05.041 +00:00 [DBG] No candidates found for the request path '/swagger'
+2025-06-25 14:44:05.041 +00:00 [DBG] Request did not match any endpoints
+2025-06-25 14:44:05.043 +00:00 [DBG] Connection id "0HNDJUQTQ7K2U" completed keep alive response.
+2025-06-25 14:44:05.043 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger - 301 0 null 4.8926ms
+2025-06-25 14:44:05.108 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/index.html - null null
+2025-06-25 14:44:05.135 +00:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-06-25 14:44:05.136 +00:00 [DBG] Request did not match any endpoints
+2025-06-25 14:44:05.252 +00:00 [DBG] Connection id "0HNDJUQTQ7K2U" completed keep alive response.
+2025-06-25 14:44:05.254 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/index.html - 200 null text/html;charset=utf-8 146.4803ms
+2025-06-25 14:44:05.484 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/swagger-ui-bundle.js - null null
+2025-06-25 14:44:05.485 +00:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2025-06-25 14:44:05.485 +00:00 [DBG] Request did not match any endpoints
+2025-06-25 14:44:05.525 +00:00 [DBG] Connection id "0HNDJUQTQ7K2V" accepted.
+2025-06-25 14:44:05.525 +00:00 [DBG] Connection id "0HNDJUQTQ7K2V" started.
+2025-06-25 14:44:05.530 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/swagger-ui-standalone-preset.js - null null
+2025-06-25 14:44:05.533 +00:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2025-06-25 14:44:05.534 +00:00 [DBG] Request did not match any endpoints
+2025-06-25 14:44:05.536 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-06-25 14:44:05.537 +00:00 [DBG] Connection id "0HNDJUQTQ7K2U" completed keep alive response.
+2025-06-25 14:44:05.537 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 53.3233ms
+2025-06-25 14:44:05.538 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-06-25 14:44:05.538 +00:00 [DBG] Connection id "0HNDJUQTQ7K2V" completed keep alive response.
+2025-06-25 14:44:05.538 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 8.0317ms
+2025-06-25 14:44:05.808 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/swagger-ui.css - null null
+2025-06-25 14:44:05.834 +00:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2025-06-25 14:44:05.837 +00:00 [DBG] Request did not match any endpoints
+2025-06-25 14:44:05.840 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-06-25 14:44:05.841 +00:00 [DBG] Connection id "0HNDJUQTQ7K2V" completed keep alive response.
+2025-06-25 14:44:05.842 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/swagger-ui.css - 200 144929 text/css 33.6138ms
+2025-06-25 14:44:06.081 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/v1/swagger.json - null null
+2025-06-25 14:44:06.082 +00:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-06-25 14:44:06.082 +00:00 [DBG] Request did not match any endpoints
+2025-06-25 14:44:06.318 +00:00 [DBG] Connection id "0HNDJUQTQ7K2V" completed keep alive response.
+2025-06-25 14:44:06.323 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 241.4351ms
+2025-06-25 14:44:54.027 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/ - null null
+2025-06-25 14:44:54.028 +00:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-06-25 14:44:54.028 +00:00 [DBG] Request matched endpoint 'HTTP: GET /'
+2025-06-25 14:44:54.028 +00:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-06-25 14:44:54.030 +00:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-06-25 14:44:54.031 +00:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-06-25 14:44:54.032 +00:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-06-25 14:44:54.032 +00:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-06-25 14:44:54.032 +00:00 [DBG] Connection id "0HNDJUQTQ7K2V" completed keep alive response.
+2025-06-25 14:44:54.032 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/ - 302 0 null 5.448ms
+2025-06-25 14:44:54.086 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/index.html - null null
+2025-06-25 14:44:54.087 +00:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-06-25 14:44:54.087 +00:00 [DBG] Request did not match any endpoints
+2025-06-25 14:44:54.088 +00:00 [DBG] Connection id "0HNDJUQTQ7K2V" completed keep alive response.
+2025-06-25 14:44:54.088 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/index.html - 200 null text/html;charset=utf-8 1.601ms
+2025-06-25 14:44:54.537 +00:00 [INF] Request starting HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/v1/swagger.json - null null
+2025-06-25 14:44:54.537 +00:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-06-25 14:44:54.538 +00:00 [DBG] Request did not match any endpoints
+2025-06-25 14:44:54.556 +00:00 [DBG] Connection id "0HNDJUQTQ7K2V" completed keep alive response.
+2025-06-25 14:44:54.556 +00:00 [INF] Request finished HTTP/1.1 GET http://726729e2-0245-4990-b707-7eddbbbf3c34-00-220kpho6o8ybn.sisko.replit.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.2172ms
+2025-06-25 14:45:35.529 +00:00 [DBG] Connection id "0HNDJUQTQ7K2U" received FIN.
+2025-06-25 14:45:35.530 +00:00 [DBG] Connection id "0HNDJUQTQ7K2U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 14:45:35.534 +00:00 [DBG] Connection id "0HNDJUQTQ7K2U" disconnecting.
+2025-06-25 14:45:35.535 +00:00 [DBG] Connection id "0HNDJUQTQ7K2U" stopped.
+2025-06-25 14:46:01.679 +00:00 [INF] Application is shutting down...
+2025-06-25 14:46:01.680 +00:00 [DBG] Hosting stopping
+2025-06-25 14:46:01.687 +00:00 [DBG] Connection id "0HNDJUQTQ7K2V" disconnecting.
+2025-06-25 14:46:01.687 +00:00 [DBG] Connection id "0HNDJUQTQ7K2V" stopped.
+2025-06-25 14:46:01.687 +00:00 [DBG] Connection id "0HNDJUQTQ7K2V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-25 14:46:01.691 +00:00 [DBG] Hosting stopped

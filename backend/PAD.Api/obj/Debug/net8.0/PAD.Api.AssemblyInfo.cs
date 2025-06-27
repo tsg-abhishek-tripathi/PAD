@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PAD.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c162aaaad2aff4375a5639889e8e99f0e9bc1f36")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+200908dc6632138025335ae2c5b9cf8e602320e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PAD.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PAD.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
