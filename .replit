@@ -26,11 +26,11 @@ mode = "parallel"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "cd backend/PAD.Api && dotnet run"
+args = "cd backend/PAD.Api && dotnet run --urls \"http://0.0.0.0:5000\""
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "cd frontend && yes | PORT=3001 npm start"
+args = "cd frontend && pkill -f \"react-scripts\" || true && DANGEROUSLY_DISABLE_HOST_CHECK=true HOST=0.0.0.0 PORT=3001 npm start"
 
 [[workflows.workflow]]
 name = "Start Frontend"
