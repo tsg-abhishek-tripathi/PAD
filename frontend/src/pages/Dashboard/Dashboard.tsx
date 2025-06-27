@@ -15,9 +15,7 @@ import {
   Progress,
   List,
   Badge,
-  Divider,
   Spin,
-  Alert,
 } from 'antd';
 import {
   UserOutlined,
@@ -28,12 +26,9 @@ import {
   EyeOutlined,
   EditOutlined,
   ReloadOutlined,
-  TrendingUpOutlined,
-  TrendingDownOutlined,
-  ClockCircleOutlined,
 } from '@ant-design/icons';
 import type { ColumnsType } from 'antd/es/table';
-import { AppDispatch, RootState } from '../../store/store';
+import { AppDispatch } from '../../store/store';
 import {
   fetchEmployees,
   selectEmployees,
